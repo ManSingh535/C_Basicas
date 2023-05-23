@@ -3,8 +3,10 @@
 
 int main()
 {
-
-	printf("Welcome to GitHub and C Basics\n");
+	int num;
+	printf("Enter a number\n");
+	scanf("%d", &num);
+	printf("The entered number is: %d", num);
 	getch();
 	return 0;
 }
